@@ -6,7 +6,7 @@ while True:
         first_digit = float(input("Колко е дълга страната? : "))
         sides = first_digit * first_digit
         print(f"Ето ви лицето на квадрата! : {sides: .3f}")
-
+        break
     elif figure == 'правоъгълник':
         first_digit = float(input("Колко е дълга първата страна? : "))
         second_digit = float(input("Колко е дълга втората страна? : "))
